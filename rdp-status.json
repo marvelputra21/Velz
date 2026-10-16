@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "velz-4",
+  "hostname": "velz-3",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "cpu_threads": 4,
+    "disk_free_gb": 28.5,
     "ram_gb": 16.0,
-    "disk_free_gb": 31.2
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "Velz",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T05:29:35Z",
-  "expires_at": "2026-10-16T11:24:35Z",
+  "started_at": "2026-10-16T11:23:05Z",
+  "expires_at": "2026-10-16T17:18:05Z",
   "duration_menit": 355,
-  "run_id": "38856021219",
-  "run_attempt": "1",
-  "run_number": "4",
-  "run_url": "https://github.com/marvelputra21/Velz/actions/runs/38856021219",
+  "run_id": "38854626284",
+  "run_attempt": "2",
+  "run_number": "3",
+  "run_url": "https://github.com/marvelputra21/Velz/actions/runs/38854626284",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,84 +39,15 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "status": "failed",
+      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
-  },
-  "media": {
-    "wallpaper": "xyverse_configured_for_user_logon",
-    "microphone": "disabled",
-    "audio_output": "rdp_playback_enabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
-  },
-  "grafis": {
-    "note": "Optional isolated CPU renderer files; not activated or benchmarked.",
-    "mesa": "26.2.4",
-    "mode": "toolkit_only",
-    "adapters": "Microsoft Hyper-V Video"
-  },
-  "extras": {
-    "lightshot": "ok",
-    "translucent": "disabled",
-    "wallpaper": "ok",
-    "wallpaper_file": "wallpaper.jpg",
-    "vscode": "skip",
-    "notepadpp": "skip",
-    "admin": true
-  },
-  "samp": {
-    "samp_installed": false,
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "directplay": "Enabled",
-    "directx": "verified_x86_x64",
-    "play_tested": false,
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "gta_installed": false,
-    "netfx3": "Enabled",
-    "status": "dependencies_ready"
-  },
-  "game_environment": {
-    "hypervisor_present": true,
-    "runner": "windows-latest",
-    "play_tested": false,
-    "os": "Microsoft Windows Server 2025 Datacenter",
-    "windows_server": true
-  },
-  "games": {
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
     },
-    "roblox": {
-      "status": "unsupported_environment",
-      "note": "Roblox mensyaratkan Windows 10/11 desktop 64-bit dan dukungan GPU. Windows Server runner bukan target yang didukung; memasang DX9 tidak mengubah ini."
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "game_dir": null,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "samp_installed": false,
-      "gta_installed": false,
-      "status": "dependencies_ready"
-    }
+    "mode": "tailscale"
   },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-10-16T11:21:56.2043488Z",
-  "stopped_at": "2026-10-16T11:22:38Z"
+  "stopped_at": "2026-10-16T11:23:16Z"
 }
