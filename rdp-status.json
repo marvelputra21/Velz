@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "velz-3",
+  "active": true,
+  "hostname": "velz-4",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 31.3,
+    "cpu_threads": 4,
     "ram_gb": 16.0,
-    "cpu_threads": 4
+    "disk_free_gb": 31.2
   },
   "rdp_port": 3389,
   "rdp_user": "Velz",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T05:13:27Z",
-  "expires_at": "2026-10-16T11:08:27Z",
+  "started_at": "2026-10-16T05:29:35Z",
+  "expires_at": "2026-10-16T11:24:35Z",
   "duration_menit": 355,
-  "run_id": "38854626284",
+  "run_id": "38856021219",
   "run_attempt": "1",
-  "run_number": "3",
-  "run_url": "https://github.com/marvelputra21/Velz/actions/runs/38854626284",
+  "run_number": "4",
+  "run_url": "https://github.com/marvelputra21/Velz/actions/runs/38856021219",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,19 +41,17 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
+      "hostname": "Velz-4",
+      "ip": "100.112.96.116",
       "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "magicdns": "velz-4.tailf6df0c.ts.net.",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
     }
   },
   "media": {
-    "audio_output": "rdp_playback_enabled",
+    "wallpaper": "xyverse_configured_for_user_logon",
     "microphone": "disabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "wallpaper": "xyverse_configured_for_user_logon"
-  },
-  "stopped_at": "2026-10-16T05:18:15Z"
+    "audio_output": "rdp_playback_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
+  }
 }
